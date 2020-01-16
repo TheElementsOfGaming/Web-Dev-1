@@ -1,0 +1,127 @@
+header, footer {
+	color: white;
+	background-color: #1A237E;
+	margin: 0em 4em 0.25em 4em;
+}
+
+footer {
+	margin-top: 1em;
+	padding-top: 1em;
+	padding-bottom: 1.2em;
+}
+
+li:hover {
+	background-color: #F50057;
+}
+
+a:link{
+	color: #00B0FF;
+}
+
+a:visited {
+	color: #00B0FF;
+}
+
+nav {
+	background-color: #3F51B5;
+	padding-top: 0.3em;
+	padding-bottom: 0.5em;
+	font-size: 110%;
+	font-family: serif;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline;
+	padding-left: 0.7em;
+}
+
+h1{
+	padding-left: 0.6em;
+}
+
+header p{
+	padding-left: 1em;
+}
+
+header h1 {
+	font-family: sans-serif;
+	font-size: 190%;
+}
+
+header p {
+	font-family: serif;
+	font-size: 110%;
+	padding-bottom: 1em;
+}
+
+main {
+	background-color: white;
+	margin: 1em 4em 0.25em 4em;
+	padding: 0.7em;
+}
+
+html {
+	background-color: #E8EAF6;
+}
+
+section h3 {
+	background-color: #7986CB;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 0.8em;
+	font-size: 135%;
+	color: white;
+	font-family: serif;
+
+}
+
+section {
+	border-color: #C5CEA9;
+	border-style: solid;
+	border-width: thin;
+	border-color: grey;
+	margin-bottom: 0.7em;
+}
+
+figcaption {
+	background-color: #C5CAE9;
+	font-size: 1.5em;
+	margin-top: -0.2em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 0.5em;
+	color: rgba(0, 0, 0, 0.6);
+}
+
+div p {
+	padding-left: 1em;
+	margin-bottom: 0.9em;
+}
+
+figure img {
+	width: 100%;
+	height: auto;
+}
+section div {
+	margin-bottom: -0.2em;
+}
+
+time {
+	color: red;
+}
+
+.byline {
+	color: blue;
+}
+
+footer {
+	padding-left: 0.7em;
+}
+
+section#reviews div{
+	border-bottom: solid;
+	border-bottom-width: thin;
+	border-color: #C5CEA9;
+	margin: 0em 0.7em 0.7em 0.7em;
+}
