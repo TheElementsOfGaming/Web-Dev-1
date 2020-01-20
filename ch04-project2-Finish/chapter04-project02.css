@@ -1,0 +1,190 @@
+footer {
+	padding-left: 4.3em;
+	padding-top: 0.5em;
+	padding-bottom: 1em;
+	padding-bottom: 0.5em;
+	background-color: #263238
+}
+
+li:hover {
+	background-color: #FF3D00;
+}
+
+a:link{
+	color: #03A9F4;
+	text-decoration: none;
+	font-family: roboto;
+}
+
+a:visited {
+	color: #03A9F4;
+}
+
+body {
+	background-color: #ECEFF1;
+}
+
+#mainMenu {
+	padding-left: 40em;
+	background-color: #253238;
+}
+
+#mainMenu li{
+	list-style-type: none;
+	display: inline;
+	font-size: 105%;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+h1 {
+	font-family: roboto;
+	font-size: 225%;
+	padding-left: 2.1em;
+	background-image: url(images/header-background.png);
+	color: white;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+}
+
+span {
+	color: #FF3D00;
+}
+
+#secondaryMenu {
+	padding-left: 4.3em;
+	background-color: #607D8B;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+}
+
+#secondaryMenu li{
+	list-style-type: none;
+	display: inline;
+	font-size: 105%;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+div {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 4.3em;
+	margin-right: 4.3em;
+	background-color: white;
+	padding-top: 0.1em;
+}
+
+div img {
+	border-style: solid;
+	border-width: 2px;
+	border-color: lightgrey;
+	padding: 0.5em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+	background-color: white;
+}
+
+section {
+	background-color: #607D8B;
+	border-style: solid;
+	border-width: 2px;
+	border-color: grey;
+	font-family: roboto;
+	margin-left: 4.3em;
+	margin-right: 4.3em;
+	margin-bottom: 1em;
+}
+
+h2 {
+	font-family: roboto;
+	text-align: center;
+	font-size: 155%;
+}
+
+section h3 {
+	background-image: url(images/header-background.png);
+	font-family: Roboto;
+	color: white;
+	padding-left: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	font-size: 105%;
+}
+
+section p {
+	padding-top: 0.7em;
+	padding-bottom: 0.7em;
+	background-color: white;
+
+}
+
+section em{
+	color: grey;
+	padding-left: 0.7em;
+}
+
+a[href^="mailto"] {
+	background: url(images/email.png) no-repeat 0 3px;
+	padding-left: 1em;
+	text-decoration: underline;
+}
+
+a[href^="tel"] {
+	background: url(images/call.png) no-repeat 0 3px;
+	padding-left: 1em;
+	text-decoration: underline;
+}
+
+a[class="actionEdit"] {
+	background: url(images/edit.png) no-repeat 0 1px;
+	color: white;
+	padding-left: 1em;
+	font-family: roboto;
+}
+
+a[class="actionFlag"] {
+	background: url(images/Flag.png) no-repeat 0 1px;
+	color: white;
+	padding-left: 1em;
+	font-family: roboto;
+}
+
+figure img {
+	width: 100%;
+	height: auto;
+}
+
+#copyright{
+	color: white;
+}
+
+.actions li{
+	display: inline;
+	list-style-type: none;
+	background-color: #FF3D00;
+	padding-right: 0.5em;
+	padding-left: 0.4em;
+	padding-bottom: 0.2em;
+	padding-top: 0.2em;
+	border-radius: 4px;
+	margin-left: 0.3em;
+}
+
+div.actions {
+	background-color: #607D8B;
+}
+.actions ul {
+	background-color: #607D8B;
+	margin-left: -3.8em;
+}
+
+footer p {
+	color: white;
+}
+
+html {
+	padding-bottom: 1em;
+}
