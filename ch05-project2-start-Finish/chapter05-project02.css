@@ -1,0 +1,125 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+
+/* general text formatting */
+
+h1, h2, h3, nav, footer {
+ font-family: 'Merriweather', serif; 
+}
+body {
+   font-family: 'Open Sans', Arial, sans-serif;
+   font-size: 16px;
+}
+
+
+legend {
+   background-color: #616161 ;
+   color: white;
+   padding: 0.2em;
+   margin-left: auto;
+   margin-right: auto;
+   padding-right: 32.4em;
+   padding-left: 32.4em;
+   font-size: 19px;
+}
+fieldset {
+   margin: 1em auto;
+   background-color: #F5F5F5;
+
+}
+
+div#searchBox, div#settingsBox, div#paintingBox {
+   margin: 0.25em auto;
+   background-color: #E0E0E0;
+   border: 1pt solid #616161;
+
+}
+
+div#searchBox { 
+   margin-top: 1em; 
+   padding-top: 1em;
+   padding-bottom: 1em;
+}
+div#artistBox { 
+   background-color: #EEEEEE;
+}
+
+input {
+   margin-left: -0.4em;
+   padding-top: 0.05em;
+}
+
+label {
+   margin-right: 0.5em;
+}
+
+div#settingsBox {
+   padding-bottom: 1em;
+   padding-top: 1em;
+}
+
+div#paintingBox {
+   margin-top: 1em;
+   background-color: #EEEEEE;
+   padding-right: 1em;
+}
+
+
+table thead {
+   background-color: #E0E0E0;
+
+}
+
+img {
+   border-style: solid;
+   border-width: 1px;
+   border-radius: 3px;
+   padding: 0.2em;
+   border-color: darkgrey;
+}
+
+caption {
+   background-color: #BDBDBD;
+   width: 98.5%;
+   padding-top: 0.7em;
+   padding-bottom: 0.7em;
+   font-size: 17px;
+   font-weight: bold;
+   margin-top: 0.6em;
+   padding-right: 0.64em;
+}
+
+table {
+   border-collapse: collapse;
+   width: 98.5%;
+   margin-left: 0.9em;
+}
+
+th {
+   border-bottom: solid;
+   border-bottom-width: 1.7px;
+   border-color: darkgrey;
+   text-align: left;
+}
+#titles {
+	padding-right: 6em;
+}
+
+input#titles {
+   margin-left: 1.2em;
+}
+a {
+   padding-left: 0.2em;
+}
+
+.italic {
+   font-style: italic;
+}
+
+select#bulkActions {
+   margin-left: 1.2em;
+}
+
+.Bottom {
+   border-style: none;
+}
