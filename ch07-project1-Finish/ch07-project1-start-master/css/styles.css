@@ -44,17 +44,17 @@ header span a:link, header span a:visited {
     border-color: grey;
     margin-bottom: 0.4em;
 }
-.mosaic-item_mosaic--a {grid-area: a;}
-.mosaic-item_mosaic--b {grid-area: b;}
-.mosaic-item_mosaic--c {grid-area: c;}
-.mosaic-item_mosaic--d {grid-area: d;}
-.mosaic-item_mosaic--e {grid-area: e;}
-.mosaic-item_mosaic--f {grid-area: f;}
-.mosaic-item_mosaic--g {grid-area: g;}
-.mosaic-item_mosaic--h {grid-area: h;}
-.mosaic-item_mosaic--i {grid-area: i;}
-.mosaic-item_mosaic--j {grid-area: j;}
-.mosaic-item_mosaic--k {grid-area: k;}
+.mosaic--b {grid-area: b;}
+.mosaic--a {grid-area: a;}
+.mosaic--c {grid-area: c;}
+.mosaic--d {grid-area: d;}
+.mosaic--e {grid-area: e;}
+.mosaic--f {grid-area: f;}
+.mosaic--g {grid-area: g;}
+.mosaic--h {grid-area: h;}
+.mosaic--i {grid-area: i;}
+.mosaic--j {grid-area: j;}
+.mosaic--k {grid-area: k;}
 
 header {
     display: grid;
