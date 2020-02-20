@@ -1,0 +1,138 @@
+.topHeaderRow ul li{
+	list-style-type: none;
+	display: inline;
+}
+
+.topHeaderRow ul li a {
+	color: white;
+	margin-left: 1em;
+	text-decoration: none;
+}
+
+.topHeaderRow {
+	text-align: right;
+	margin-right: 3em;
+	padding-left: 2em;
+	padding-top: 0.5em;
+}
+
+.navbar-default ul li{
+	list-style-type: none;
+	display: inline;
+}
+
+header {
+	background-color: #1A237E;
+}
+
+
+.btn-group button {
+	padding-left: 1em;
+	padding-right: 1em;
+	background-color: white;
+	border-width: 2px;
+	margin-right: -0.4em;
+}
+
+.form-inline {
+	margin-top: 2em;
+}
+
+.form-control {
+	margin-left: 2em;
+}
+
+.panel {
+	padding-right: 0.5em;
+}
+.dropdown-menu {
+	padding-right: 2.5em;
+}
+
+.button {
+	color: white;
+	background-color: #F50057;
+	border: none;
+	padding-top: 0.3em;
+	padding-bottom: 0.5em;
+	padding-right: 0.3em;
+	padding-left: 0.3em;
+}
+
+.navbar-brand {
+	font-family: "Lobster", "Open+Sans";
+	font-size: 2em;
+}
+
+.panel-heading {
+	background-color: #1A237E;
+	color: white;
+
+}
+
+#tags {
+	margin-left: 0.8em;
+}
+
+.tags {
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.panel-body li {
+	list-style-type: none;
+}
+
+aside {
+	margin-left: 1.5em;
+}
+
+.basic-info {
+	margin-left: 1em;
+}
+
+.img {
+	border-style: solid;
+	border-width: 2px;
+	border-color: lightgrey;
+	text-align: center;
+	padding-top: 0.7em;
+	padding-bottom: 0.5em;
+}
+
+footer {
+	color: white;
+	background-color: #283586;
+	margin-top: 1em;
+}
+
+.BottomLowerRow {
+	background-color: #1A237E;
+	text-align: center;
+}
+
+.name {
+	padding-bottom: 0.6em;
+	padding-right: 6em;
+	margin-bottom: 0.7em;
+}
+
+.email {
+	padding-bottom: 0.6em;
+	padding-right: 6em;
+	margin-bottom: 0.7em;
+
+}
+
+.message {
+	padding-right: 5em;
+	padding-bottom: 3em;
+}
+
+.submitbtn {
+	padding-left: 7.68em;
+	padding-right: 7.68em;
+	margin-left: 0.05em;
+	margin-top: 0.7em;
+	margin-bottom: 1em;
+}
