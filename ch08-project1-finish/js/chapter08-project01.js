@@ -1,6 +1,6 @@
 /* add loop and other code here ... in this simple exercise we are not
    going to concern ourselves with minimizing globals, etc */
-for (var i = 0; i < 3; i++) {
+for (var i = 0; i < prices.length; i++) {
 	outputCartRow(i, i, i, i,);
 }
 
