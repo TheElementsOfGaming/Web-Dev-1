@@ -1,3 +1,3 @@
 # Web-Dev-1
 
-Created for my Web-Dev 1 Class at Snow College
+Created for my Web Development class at Snow College
