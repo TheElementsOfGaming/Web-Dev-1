@@ -16,12 +16,12 @@ Book.prototype.outputCard = function() {
 	document.write('<p>' + b.description + '<p>');
 	document.write('<h6>Adopters</h6>');
 	document.write('<ul>');
-	outputUni();
 	function outputUni() {
 		for (var j = 0; j < b.universities.length; j++) {
 			document.write('<li>' + b.universities[j] + '</li>');
 		}
 	}
+	outputUni();
 	document.write('</ul>');
 	document.write('</div>');
 	document.write('<div class="mdl-card__actions mdl-card--border">');
