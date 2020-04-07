@@ -4,11 +4,11 @@ window.addEventListener('load', function() {
     // loop over document.querySelectorAll('.required')
     for (let node of document.querySelectorAll(".hilightable")) {
         node.addEventListener('focus', function() {
-            node.className = "required";
+            node.classList.remove("hilightable");
             node.classList.add("highlight");
         });
         node.addEventListener('blur', function() {
-            node.className = "required";
+            node.classList.remove("highlight");
             node.classList.add("hilightable");
         });
     }
