@@ -40,7 +40,7 @@
     </div>
 </main>
 <script type="text/javascript">
-    $(function () {
+    $(document).ready(function () {
         function editImage() {
             var opac = $('#sliderOpacity').val();
             var bright = $('#sliderBrightness').val();
@@ -94,10 +94,12 @@
             $("#numBlur").html(this.value);
             $("#sliderBlur").change(editImage);
         });
-        $("#resetFilters").on("Click", function() {
+        $("#resetFilters").click(function(event) {
+            event.preventDefault();
+            $("#imgManipulated img").css('opacity', 100 + "%");
             $("#imgManipulated img").css({"filter": "brightness(" + 100 + "%" + ")" + "saturate(" + 100 + "%" +")" + "hue-rotate(" + 0 + "deg" + ")" + "grayscale(" + 0 + "%" + ")" + 
             "blur(" + 0 + "px" + ")"});
-        });
+        })
     });
 </script>    
 </body>   
